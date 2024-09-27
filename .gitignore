@@ -1,0 +1,53 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#Main
+/node_modules
+
+
+# Server-side (Node.js/Express)
+server/node_modules/
+server/.env
+server/.env.local
+server/build/
+server/dist/
+server/.cache/
+
+# Client-side (React)
+client/node_modules/
+client/.env
+client/.env.local
+client/build/
+client/dist/
+client/.cache/
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Environment variables
+.env
+.env.local
+
+# Testing
+coverage/
+*.lcov
+
+# IDE specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Misc
+.DS_Store
+Thumbs.db
+*.swp
+*.lock
+*.pid
+*.seed
+*.pid.lock
